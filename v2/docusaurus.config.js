@@ -27,6 +27,7 @@ module.exports = {
           label: 'Tutorial',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {href: 'https://v1.journalcli.app', label: 'v1 Docs', position: 'right'},
         {
           href: 'https://github.com/refactorsaurusrex/journal-cli',
           label: 'GitHub',
@@ -85,6 +86,10 @@ module.exports = {
             {
               label: 'Project Roadmap',
               href: 'https://github.com/refactorsaurusrex/journal-cli/projects/1',
+            },
+            {
+              label: 'v1 (Legacy) Docs',
+              href: 'https://v1.journalcli.app',
             },
           ],
         },

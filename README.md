@@ -1,2 +1,2 @@
-# journalcli.me
+# JournalCli Documentation
 Documentation for journal-cli
