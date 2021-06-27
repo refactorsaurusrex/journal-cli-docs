@@ -65,15 +65,7 @@ module.exports = {
             {
               label: 'GitHub Discussions',
               href: 'https://github.com/refactorsaurusrex/journal-cli/discussions',
-            },
-            // {
-            //   label: 'Discord',
-            //   href: 'https://discordapp.com/invite/docusaurus',
-            // },
-            // {
-            //   label: 'Twitter',
-            //   href: 'https://twitter.com/docusaurus',
-            // },
+            }
           ],
         },
         {
@@ -109,13 +101,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/refactorsaurusrex/journal-cli/edit/master/website/',
+            'https://github.com/refactorsaurusrex/journal-cli-docs/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/refactorsaurusrex/journal-cli/edit/master/website/blog/',
+            'https://github.com/refactorsaurusrex/journal-cli-docs/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
