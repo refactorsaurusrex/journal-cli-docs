@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'journal-cli',
   tagline: 'A command line tool, for journaling.',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://journalcli.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
