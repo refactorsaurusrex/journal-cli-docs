@@ -91,6 +91,7 @@ module.exports = {
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
+      additionalLanguages: ['powershell'],
     },
   },
   presets: [
@@ -102,6 +103,7 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/refactorsaurusrex/journal-cli-docs/edit/master/website/',
+          showLastUpdateTime: true
         },
         blog: {
           showReadingTime: true,

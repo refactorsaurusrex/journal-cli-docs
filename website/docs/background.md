@@ -1,8 +1,9 @@
 ---
-title: Background
+title: History
+sidebar_position: 6
 ---
 
-> How `journal-cli` came to be.
+> The story behind how `journal-cli` came to be.
 
 Sometime late in 2017, I found myself flipping through really old entries in my Google Calendar. Turns out I had entries in there dating back to 2001. It was interesting taking a stroll down memory lane and seeing everything from the mundane ("Dentist Appt") to the exciting ("Date with Austin chick")\*. It got me thinking that I should make an effort to write down the highlights of my day _every day_ because future-me might be interested in knowing what I did on, say, December 13th, 2018. ("Started developing `journal-cli`.") So I made the decision to start keeping a daily journal. 
 
@@ -12,7 +13,7 @@ However, every application I tried suffered from one or more serious flaws. They
 
 Finally, I had a realization. *Typora supports yaml front matter. I can use front matter to add tags to each file and create a command line tool to parse the tags from each journal file!* Thus, `journal-cli` was born.
 
-
+\- Nick Spreitzer ([@Refactorsaurusrex](https://github.com/refactorsaurusrex))
 
 ---
 

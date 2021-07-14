@@ -29,7 +29,7 @@ const FeatureList = [
     Svg: require('../../static/img/laptop.svg').default,
     description: (
       <>
-        Runs on Windows, Mac, and Linux.<a href="/docs/requirements">*</a>
+        Runs on Windows, Mac, and Linux.<a href="/docs/requirements">*</a> Just requires this ONE external dependency.
       </>
     ),
   },
