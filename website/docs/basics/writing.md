@@ -5,9 +5,9 @@ title: Writing
 
 # Writing Entries
 
-:::tip Pro Tip!
+:::tip Hot Tip!
 
-Generate a list of all journal-cli commands at any time by running `Get-Command -Module JournalCli`. Run `help {command}` to display documentation for a specific command. 
+You can generate a list of all journal-cli commands at any time by running `Get-Command -Module JournalCli`. Run `help {command}` to display documentation for a specific command. 
 
 :::
 
@@ -24,13 +24,19 @@ tags:
   - coding
 ```
 
-To add tags directly from the command line, use the `-Tags` parameter, which accepts an array of string values. You can use "tab completion" to automatically populate tag names, based on the tags you've previously used in your journal. For example, if I type the word "run" and then press the tab key, "running" will be automatically filled in because I've previously used "running" is a tag. The wildcard characters `*` and `?` can be used as well, so typing "*ing" followed by the tab key would cycle through all previously used tags that end with the letters "ing" in alphabetical order. 
+To add tags directly from the command line, use the `-Tags` parameter, which accepts an array of string values. 
 
 ```powershell
 # Examples of valid tag arguments.
 New-JournalEntry -Tags running,work,coding
 New-JournalEntry -Tags cooking
 ```
+
+:::tip Hot Tip!
+
+You can use "tab completion" to automatically populate tag names, based on the tags you've previously used in your journal. For example, if I type `-Tags run` followed by the tab key, "running" will be automatically suggested because I've previously used "running" as a tag. The wildcard characters `*` and `?` can be used as well, so typing `-Tags *ing` followed by the tab key would cycle through all previously used tags that end with the letters "ing" in alphabetical order, such as "running", "cycling", and "swimming".
+
+:::
 
 :::warning
 
