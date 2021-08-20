@@ -18,9 +18,10 @@ Get-JournalEntries | ? {$_.Tags.Count -eq 0}
 
 ## How can I delete journal entries?
 
-You can always manually delete entries in the same way that you'd delete any other file on your computer. However, if you'd like to delete them with PowerShell, you should use the `Get-JournalFiles` command to select the entries you want to delete, then pipe those items to the `Remove-Item` function. 
+You can always manually delete entries in the same way that you'd delete any other file on your computer. However, if you'd like to delete them with PowerShell, you should use the `Get-JournalFiles` command to select the entries you want to delete, then pipe those items to the `Remove-Item` function. Here's an example:
 
 ```powershell
-Get-JournalFiles
+# Deletes entries from yesterday a
+Get-JournalFiles -From yesterday -To today | Remove-Item
 ```
 

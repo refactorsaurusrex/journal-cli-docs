@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Listing, Indexing, and Searching
+title: Listing
 ---
 
 # Listing, Indexing, and Searching
@@ -87,7 +87,6 @@ Now we have five results, all of which point back to the same journal entry. Tha
 
 ## Get-JournalFiles
 
-In contrast with `Get-JournalEntries` and `Get-JournalIndex`, both of which return custom objects, `Get-JournalFiles` returns native PowerShell objects representing the underlying journal entry files. The allows manipulation of journal files using native PowerShell commands, such as `Select-String`, which enables full text searching, and `Remove-Item`, which can be used to permanently delete unwanted journal entries from disk. 
+In contrast with `Get-JournalEntries` and `Get-JournalIndex`, both of which return custom objects, `Get-JournalFiles` returns native PowerShell objects representing the underlying journal entry files. The allows manipulation of journal files using native PowerShell commands such as `Select-String`, which enables full text searching, and `Remove-Item` which can be used to permanently delete unwanted journal entries from disk. 
 
-`Get-JournalFiles` allows you to select files by tag, date range, or by entry names. 
-
+`Get-JournalFiles` allows you to select files by tag, date range, or by entry names. Most of these parameters are the same as what's described above for `Get-JournalEntries` and `Get-JournalIndex`. The only exception is `-EntryNames`, which takes an array of journal entry file names in the format of `YYYY.MM.DD`. For example, `2021.06.29` references the journal entry file for June 29th, 2021. This is helpful any time you want to manipulate journal entries returned from either `Get-JournalEntries` or `Get-JournalIndex` using native PowerShell commands. As indicated above, the primary use cases here are performing full text search and entry deletion. 
